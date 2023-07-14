@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD16A2D42A61B3AC00A51283 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16A2D32A61B3AC00A51283 /* SecondView.swift */; };
+		BD16A2D62A61B8FD00A51283 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16A2D52A61B8FD00A51283 /* ThirdView.swift */; };
 		BD5E269B2A61AD6F0096636A /* NavigationStackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E269A2A61AD6F0096636A /* NavigationStackApp.swift */; };
 		BD5E269D2A61AD6F0096636A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E269C2A61AD6F0096636A /* ContentView.swift */; };
 		BD5E269F2A61AD710096636A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5E269E2A61AD710096636A /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD16A2D32A61B3AC00A51283 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BD16A2D52A61B8FD00A51283 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		BD5E26972A61AD6F0096636A /* NavigationStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5E269A2A61AD6F0096636A /* NavigationStackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackApp.swift; sourceTree = "<group>"; };
 		BD5E269C2A61AD6F0096636A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				BD5E269A2A61AD6F0096636A /* NavigationStackApp.swift */,
 				BD5E269C2A61AD6F0096636A /* ContentView.swift */,
+				BD16A2D52A61B8FD00A51283 /* ThirdView.swift */,
+				BD16A2D32A61B3AC00A51283 /* SecondView.swift */,
 				BD5E269E2A61AD710096636A /* Assets.xcassets */,
 				BD5E26A02A61AD710096636A /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD16A2D62A61B8FD00A51283 /* ThirdView.swift in Sources */,
+				BD16A2D42A61B3AC00A51283 /* SecondView.swift in Sources */,
 				BD5E269D2A61AD6F0096636A /* ContentView.swift in Sources */,
 				BD5E269B2A61AD6F0096636A /* NavigationStackApp.swift in Sources */,
 			);
